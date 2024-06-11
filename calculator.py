@@ -12,8 +12,3 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
-def sqrt(x):
-     if x < 0:
-        raise ValueError("Imaginary Number")
-     else:
-        return x ** 0.5
